@@ -1,6 +1,6 @@
 # go-block-manager
 
-    A simple Go package for managing blocks stored in a file.
+A simple Go package for managing blocks stored in a file.
 
 # Functions
 
@@ -10,15 +10,15 @@
 
 ### Description:
 
-    Reads all blocks from the specified file and displays them.
+Reads all blocks from the specified file and displays them.
 
 ### Parameters:
 
-    filename (string): The name of the file containing blocks.
+filename (string): The name of the file containing blocks.
 
 ### Returns:
 
-    error: An error if any occurred during file reading.
+error: An error if any occurred during file reading.
 
 ## NewBlock
 
@@ -26,16 +26,16 @@
 
 ### Description:
 
-    Appends a new block to the specified file.
+Appends a new block to the specified file.
 
 ### Parameters:
 
-    filename (string): The name of the file to which the block will be appended.
-    block (string): The content of the new block to be added.
+filename (string): The name of the file to which the block will be appended.
+block (string): The content of the new block to be added.
 
 ### Returns:
 
-    error: An error if any occurred during file writing.
+error: An error if any occurred during file writing.
 
 # ModifyBlock
 
@@ -43,17 +43,17 @@
 
 ### Description:
 
-    Modifies a specific block in the specified file.
+Modifies a specific block in the specified file.
 
 ### Parameters:
 
-    filename (string): The name of the file containing blocks.
-    oldBlock (string): The content of the block to be modified.
-    newBlock (string): The new content to replace the old block.
+filename (string): The name of the file containing blocks.
+oldBlock (string): The content of the block to be modified.
+newBlock (string): The new content to replace the old block.
 
 ### Returns:
 
-    error: An error if any occurred during file reading or writing.
+error: An error if any occurred during file reading or writing.
 
 # Usage
 

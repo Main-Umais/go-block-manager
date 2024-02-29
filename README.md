@@ -37,7 +37,7 @@ block (string): The content of the new block to be added.
 
 error: An error if any occurred during file writing.
 
-# ModifyBlock
+## ModifyBlock
 
     func ModifyBlock(filename, oldBlock, newBlock string) error
 
@@ -55,7 +55,7 @@ newBlock (string): The new content to replace the old block.
 
 error: An error if any occurred during file reading or writing.
 
-# Usage
+## Usage
 
     Import the blockmanager package in your Go project:
     import "github.com/Mian-Umais/go-block-manager/blockmanager"

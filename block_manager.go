@@ -19,6 +19,7 @@ func DisplayAllBlocks(filename string) error {
     return nil
 }
 
+
 // NewBlock appends a new block to the file.
 func NewBlock(filename, block string) error {
     f, err := os.OpenFile(filename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
